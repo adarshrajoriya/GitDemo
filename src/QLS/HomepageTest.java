@@ -24,6 +24,7 @@ public class HomepageTest {
 	  driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).click();
 	  driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).sendKeys("iPhone 12");
 	  driver.findElement(By.cssSelector("#nav-search-submit-button")).click();
+	  System.out.println("Git Update");
 	  
 	  
 	  String actual = driver.findElement(By.xpath("//span[text()='New Apple iPhone 12 (128GB) - (Product) RED']")).getText();
